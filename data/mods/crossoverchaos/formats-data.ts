@@ -1672,5 +1672,17 @@ absolutely FUCK devil dinosaur and everything he stands for, it's such a pain in
 	tomurashigaraki: {
 		tier: "EX",
 	},
-	
+	redriot: {
+		tier: "EX",
+	},
+	redriotmega: {
+		requiredItem: "Redrite",
+		tier: "EX",
+	},
+	darkness: {
+		tier: "EX",
+	},
+	storm: {
+		tier: "EX",
+	},
 };

@@ -5335,6 +5335,7 @@ does marvel's big ol mutant trex exist? who knows
 		forme: "Mega",
 		formeLetter: "M",
 		types: ["Poison", "Dark"],
+		gender: "M",
 		baseStats: {hp: 104, atk: 169, def: 113, spa: 97, spd: 96, spe: 81},
 		abilities: {0: "Mold Breaker"},
 		heightm: 1.9,
@@ -5347,6 +5348,7 @@ does marvel's big ol mutant trex exist? who knows
 		forme: "GMax",
 		formeLetter: "G",
 		types: ["Poison", "Dark"],
+		gender: "M",
 		baseStats: {hp: 104, atk: 129, def: 83, spa: 67, spd: 76, spe: 101},
 		abilities: {0: "Regenerator", 1: "Poison Touch", H: "Healer"},
 		heightm: 50,
@@ -5356,6 +5358,7 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000106,
 		species: "Jotaro Kujo", /* JoJo's Bizarre Adventure */
 		types: ["Fighting", "Ghost"],
+		gender: "M",
 		baseStats: {hp: 75, atk: 139, def: 115, spa: 60, spd: 75, spe: 121},
 		abilities: {0: "Iron Fist", 1: "Scrappy", H: "Keen Eye"},
 		heightm: 1.95,
@@ -5365,6 +5368,7 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000107,
 		species: "Waldo", /* Where's Waldo? */
 		types: ["Normal"],
+		gender: "M",
 		baseStats: {hp: 117, atk: 80, def: 80, spa: 58, spd: 58, spe: 127},
 		abilities: {0: "Where's Waldo?", H: "Technician"},
 		heightm: 1.7,
@@ -5374,6 +5378,7 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000108,
 		species: "Shoto Todoroki", /* My Hero Academia */
 		types: ["Ice", "Fire"],
+		gender: "M",
 		baseStats: {hp: 90, atk: 65, def: 75, spa: 130, spd: 80, spe: 100},
 		abilities: {0: "Ice Body", H: "Flame Body"},
 		heightm: 1.7,
@@ -5383,6 +5388,7 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000109,
 		species: "Wade L. D.", /* SiIvaGunner */
 		types: ["Normal"],
+		gender: "M",
 		baseStats: {hp: 100, atk: 100, def: 60, spa: 60, spd: 60, spe: 100},
 		abilities: {0: "Skill Link", 1: "Anger Point", H: "Friend Guard"},
 		heightm: 0.2,
@@ -5392,11 +5398,53 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000110,
 		species: "Tomura Shigaraki", /* My Hero Academia */
 		types: ["Dark", "Ghost"],
+		gender: "M",
 		baseStats: {hp: 85, atk: 125, def: 85, spa: 75, spd: 85, spe: 105},
 		abilities: {0: "Decay", H: "All For One"},
-		heightkg: 1.7,
+		heightm: 1.7,
 		weightkg: 60,
 	},
-		
+	redriot: {
+		num: 7000111,
+		species: "Red Riot", /* My Hero Academia */
+		types: ["Fighting", "Rock"],
+		gender: "M",
+		baseStats: {hp: 109, atk: 95, def: 135, spa: 30, spd: 100, spe: 81},
+		abilities: {0: "Sturdy", 1: "Rough Skin", H: "Guts"},
+		heightm: 1.7,
+		weightkg: 70,
+	},
+	redriotmega: {
+		num: 7000111,
+		species: "Red Riot-Mega",
+		baseSpecies: "Red Riot",
+		forme: "Mega",
+		types: ["Fighting", "Rock"],
+		gender: "M",
+		baseStats: {hp: 109, atk: 115, def: 165, spa: 60, spd: 140, spe: 61},
+		abilities: {0: "Rock Head"},
+		heightm: 1.7,
+		weightkg: 72,
+	},
+	darkness: {
+		num: 7000112,
+		species: "Darkness", /* KonoSuba */
+		types: ["Steel"],
+		gender: "M",
+		baseStats: {hp: 100, atk: 70, def: 150, spa: 50, spd: 100, spe: 80},
+		abilities: {0: "Hustle", 1: "Anticipation", H: "Sturdy"},
+		heightm: 1.7,
+		weightkg: 72,
+	},
+	storm: {
+		num: 7000113,
+		species: "Storm", /* Marvel Comics */
+		types: ["Electric", "Flying"],
+		gender: "M",
+		baseStats: {hp: 75, atk: 60, def: 60, spa: 133, spd: 120, spe: 105},
+		abilities: {0: "Drizzle", H: "Snow Warning"},
+		heightm: 1.8,
+		weightkg: 65.77,
+	},
 };
 
