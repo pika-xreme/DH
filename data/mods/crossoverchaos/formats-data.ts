@@ -1106,11 +1106,23 @@ export const BattleFormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		requiredItem: "Soul Orb",
 	},
 	naraku: {
-		tier: "OU",
+		tier: "V2",
 	},
 	narakushinobi: {
 		requiredItem: "Secret Ninja Art Scroll",
-		tier: "OU",
+		tier: "V2",
+	},
+	aiai: {
+		tier: "V2",
+	},
+	bonanzabros: {
+		tier: "V2",
+	},
+	bonanzabroswestern: {
+		tier: "V2",
+	},
+	metalsonic: {
+		tier: "V2",
 	},
 	 walle: {
 		  tier: "EX",
