@@ -5479,7 +5479,7 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000112,
 		species: "Darkness", /* KonoSuba */
 		types: ["Steel"],
-		gender: "M",
+		gender: "F",
 		baseStats: {hp: 100, atk: 70, def: 150, spa: 50, spd: 100, spe: 80},
 		abilities: {0: "Hustle", 1: "Anticipation", H: "Sturdy"},
 		heightm: 1.7,
@@ -5489,11 +5489,39 @@ does marvel's big ol mutant trex exist? who knows
 		num: 7000113,
 		species: "Storm", /* Marvel Comics */
 		types: ["Electric", "Flying"],
-		gender: "M",
+		gender: "F",
 		baseStats: {hp: 75, atk: 60, def: 60, spa: 133, spd: 120, spe: 105},
 		abilities: {0: "Drizzle", H: "Snow Warning"},
 		heightm: 1.8,
 		weightkg: 65.77,
+	},
+	indianajones: {
+		num: 7000114,
+		species: "Indiana Jones", /* Indiana Jones */
+		types: ["Ground"],
+		gender: "M",
+		baseStats: {hp: 81, atk: 118, def: 93, spa: 53, spd: 82, spe: 107},
+		abilities: {0: "Defiant", 1: "Long Reach", H: "Emergency Exit"},
+		heightm: 1.7,
+		weightkg: 72,
+	},
+	crocodile: {
+		num: 7000115,
+		species: "Crocodile", /* One Piece */
+		types: ["Ground"],
+		gender: "M",
+		baseStats: {hp: 110, atk: 96, def: 82, spa: 96, spd: 82, spe: 82},
+		abilities: {0: "Sand Stream", 1: "Sand Veil", H: "Sand Rush"},
+		heightm: 1.8,
+		weightkg: 89,
+	},
+	honokakosaka: {
+		num: 7000116,
+		species: "Honoka Kosaka", /* Love Live! School idol project */
+		types: ["Normal"],
+		gender: "F",
+		baseStats: {hp: 100, atk: 45, def: 70, spa: 100, spd: 70, spe: 100},
+		abilities: {0: "Unaware", 1: "Dancer", H: "Huge Power"},
 	},
 };
 

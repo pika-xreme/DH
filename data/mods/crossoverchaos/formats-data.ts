@@ -1697,4 +1697,14 @@ absolutely FUCK devil dinosaur and everything he stands for, it's such a pain in
 	storm: {
 		tier: "EX",
 	},
+	indianajones: {
+		tier: "EX",
+	},
+	crocodile: {
+		tier: "EX",
+	},
+	honokakosaka: {
+		tier: "EX",
+	},
+	
 };
