@@ -3683,7 +3683,7 @@ kyokokirigiri: {
 		species: "Metal Sonic", /* Sonic the Hedgehog */
 		types: ["Steel"],
 		gender: "N",
-		baseStats: {hp: 80, atk: 110, def: 80, spa: 90, spd: 70, spe: 170},
+		baseStats: {hp: 80, atk: 100, def: 80, spa: 90, spd: 70, spe: 180},
 		abilities: {0: "Trace"},
 		heightm: 1,
 		weightkg: 125,
