@@ -236,20 +236,7 @@ export const BattleAbilities: {[k: string]: ModdedAbilityData} = {
   },
   crystalbarrier: {
     shortDesc:
-      "This Pokemon's Defense and Sp. Def are doubled; Every damaging move used against this Pokemon will always hit. Clears hazards on entry, but takes 1/8th HP in damage when doing so.",
-    onModifyDefPriority: 6,
-    onModifyDef(def) {
-      return this.chainModify(2);
-    },
-    onModifySpDPriority: 5,
-    onModifySpD(spd) {
-      return this.chainModify(2);
-    },
-    onAnyAccuracy(accuracy, target, source, move) {
-      if (!move || typeof accuracy !== "number" || move.category === "Status")
-        return;
-      return true;
-    },
+      "Clears hazards on entry, but takes 1/8th HP in damage when doing so.",
     onStart(pokemon) {
       let sideConditions = ['spikes', 'toxicspikes', 'stealthrock', 'stickyweb', 'gmaxsteelsurge', 'mine'];
 		 //Hazard immunity has to be manually added in moves.js by customizing the respective moves above to simply do nothing if the user holds this ability

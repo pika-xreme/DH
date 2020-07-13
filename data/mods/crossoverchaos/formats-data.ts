@@ -75,7 +75,7 @@ export const BattleFormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
         tier: "V2",
 //         doublesTier: "DOU",
     },
-    inklingkid: {
+    inklingsquid: {
         tier: "V2",
 //         doublesTier: "DOU",
     },
@@ -487,6 +487,18 @@ export const BattleFormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
         tier: "V2",
 //         doublesTier: "DOU",
     },
+    yoshired: {
+        tier: "V2",
+//         doublesTier: "DOU",
+    },
+    yoshiblue: {
+        tier: "V2",
+//         doublesTier: "DOU",
+    },
+    yoshiyellow: {
+        tier: "V2",
+//         doublesTier: "DOU",
+    },
     masterchief: {
         tier: "V2",
 //         doublesTier: "DOU",
@@ -827,6 +839,12 @@ export const BattleFormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	 },
 	 romulus: {
 		  tier: "V2",
+	 },
+	 romulusquirinus: {
+		  tier: "V2",
+	 },
+	 romulusquirinusgrand: {
+		  tier: "Uber",
 	 },
 	 lucina: {
 		  tier: "V2",

@@ -1037,7 +1037,7 @@ export const BattleMovedex: {[k: string]: ModdedMoveData} = {
 	"creeperblast": {
 		num: 40032,
 		accuracy: 100,
-		basePower: 500,
+		basePower: 250,
 		category: "Physical",
 		desc: "The user faints after using this move, even if this move fails for having no target. This move is prevented from executing if any active Pokemon has the Damp Ability.",
 		shortDesc: "Hits adjacent Pokemon. The user faints.",
@@ -1983,12 +1983,9 @@ export const BattleMovedex: {[k: string]: ModdedMoveData} = {
 		flags: {protect: 1, mirror: 1},
 		multihit: [2, 5],
 		onAfterMoveSecondarySelf(pokemon, target, move) {
-//			I have NO idea what I'm doing here so if this works I just got lucky
 			if (pokemon.template.baseSpecies !== 'Inkling') return;
 			if (!target || target.fainted || target.hp <= 0){
 				if (pokemon.template.species === 'Inkling') {
-					pokemon.formeChange('Inkling-Kid', this.effect, false, '[msg]');
-				} else {
 					this.boost({spe: 1}, pokemon, pokemon, move);
 				}
 			}
@@ -2161,7 +2158,7 @@ export const BattleMovedex: {[k: string]: ModdedMoveData} = {
 	"foilflourish": {
 		num: 40073,
 		accuracy: 90,
-		basePower: 80,
+		basePower: 35,
 		category: "Physical",
 		desc: "Has a 50% chance to raise the user's Attack by 1 stage. Has a 50% chance to raise the user's Speed by 1 stage.",
 		shortDesc: "Individual 50% chances to +1 Attack or Speed.",
@@ -3141,7 +3138,7 @@ export const BattleMovedex: {[k: string]: ModdedMoveData} = {
 		num: 40107,
 		accuracy: 100,
 		basePower: 25,
-		category: "Special",
+		category: "Physical",
 		desc: "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times in one turn.",
 		id: "machinegun",
@@ -3162,7 +3159,7 @@ export const BattleMovedex: {[k: string]: ModdedMoveData} = {
 		num: 40108,
 		accuracy: 100,
 		basePower: 25,
-		category: "Physical",
+		category: "Special",
 		desc: "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times in one turn.",
 		id: "pixelgun",
@@ -3183,7 +3180,7 @@ export const BattleMovedex: {[k: string]: ModdedMoveData} = {
 		num: 40109,
 		accuracy: 100,
 		basePower: 25,
-		category: "Special",
+		category: "Physical",
 		desc: "Hits two to five times. Has a 1/3 chance to hit two or three times, and a 1/6 chance to hit four or five times. If one of the hits breaks the target's substitute, it will take damage for the remaining hits. If the user has the Skill Link Ability, this move will always hit five times.",
 		shortDesc: "Hits 2-5 times in one turn.",
 		id: "points",
