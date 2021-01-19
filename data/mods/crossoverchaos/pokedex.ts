@@ -3,7 +3,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		  abilities: {0: "Ability1Name", H: "Ability2Name"},
 		  For a pokemon with three abilities use
 		  abilities: {0: "Ability1Name", 1: "Ability2Name", H: "Ability3Name"}, */
-	
+	/* croissants are a pastry i think */
 	kirby: {
 		num: 6000001,
 		name: "Kirby",
