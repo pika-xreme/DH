@@ -2508,6 +2508,39 @@ gregheffley: {
 	 heightm: 1.5,
     weightkg: 48,
 },
+<<<<<<< HEAD
+=======
+aimizuno: {
+	 num: 7000036,
+	 species: "Ai Mizuno",
+	 types: ["Ghost", "Electric"],
+	 gender: "F",
+	 baseStats: {hp: 150, atk: 80, def: 60, spa: 120, spd: 60, spe: 100},
+	 abilities: {0: "Dancer", 1: "Lightning Rod", H: "Mummy"},
+	 heightm: 1.6,
+	 weightkg: 42,
+},
+rapunzel: {
+	 num: 7000037,
+	 species: "Rapunzel",
+	 types: ["Grass", "Fairy"],
+	 gender: "F",
+	 baseStats: {hp: 100, atk: 105, def: 40, spa: 80, spd: 130, spe: 65},
+	 abilities: {0: "Tangling Hair", 1: "Long Reach", H: "Drought"},
+	 heightm: 1.6,
+	 weightkg: 42,
+},
+elphaba: {
+	 num: 7000038,
+	 species: "Elphaba",
+	 types: ["Dark", "Flying"],
+	 gender: "F",
+	 baseStats: {hp: 80, atk: 60, def: 80, spa: 130, spd: 95, spe: 120},
+	 abilities: {0: "Cursed"},
+	 heightm: 1.7,
+	 weightkg: 48,
+},
+>>>>>>> parent of 868e0a3f6... Update pokedex.js
      
 //    /* mario: {
 // 		num: 6000001,
