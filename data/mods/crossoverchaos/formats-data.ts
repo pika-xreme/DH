@@ -1163,6 +1163,123 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 	darkeatermidir: {
 		tier: "V2",
 	},
+	isaac: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloon: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonblue: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloongreen: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonyellow: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+
+	bloonpink: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonblack: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonwhite: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonpurple: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonzebra: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonrainbow: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonlead: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	bloonceramic: {
+		tier: "V2",
+		doublesTier: "V2",
+	},
+	moab: {
+		tier: "Uber",
+	},
+	bfb: {
+		tier: "Uber",
+	},
+	zomg: {
+		tier: "Uber",
+	},
+	ddt: {
+		tier: "Uber",
+	},
+	bad: {
+		tier: "Uber",
+	},
+	nunuwillump: {
+		tier: "V2",
+	},
+	edelgardvonhresvelg: {
+		tier: "V2",
+	},
+	emperoredelgard: {
+		tier: "V2",
+	},
+	emperoredelgardmega: {
+		requiredItem: "Adrestianite",
+		tier: "V2",
+	},
+	tingle: {
+		tier: "V2",
+	},
+	marisakirisame: {
+		tier: "V2",
+	},
+	watervellumental: {
+		tier: "V2",
+	},
+	drizzler: {
+		tier: "V2",
+	},
+	ness: {
+		tier: "V2",
+	},
+	galactaknight: {
+		tier: "Uber",
+	},
+	chaos: {
+		tier: "V2",
+	},
+	chaos1: {
+		tier: "V2",
+	},
+	chaos2: {
+		tier: "V2",
+	},
+	chaos4: {
+		tier: "V2",
+	},
+	chaos6: {
+		tier: "V2",
+	},
+	chaosperfect: {
+		tier: "Uber",
+	},
 	 walle: {
 		  tier: "EX",
 	 },
